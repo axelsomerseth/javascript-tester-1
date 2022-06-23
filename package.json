@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage"
+    "test": "jest",
+    "test:watch": "npm run test -- --watchAll"
   },
   "keywords": [],
   "author": "Axel Somerseth Cordova <axelsomerseth@gmail.com>",
@@ -12,5 +13,9 @@
   "devDependencies": {
     "@types/jest": "^28.1.2",
     "jest": "^28.1.1"
+  },
+  "dependencies": {
+    "http-status-codes": "^2.2.0",
+    "supertest": "^6.2.3"
   }
 }

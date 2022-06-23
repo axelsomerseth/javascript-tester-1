@@ -1,7 +1,7 @@
 {
   "name": "javascript-tester-1",
   "version": "1.0.0",
-  "description": "",
+  "description": "Able to develop Javascript code using various forms of testing.",
   "scripts": {
     "start": "node ./source/server.js",
     "test": "jest",

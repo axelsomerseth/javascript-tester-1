@@ -49,6 +49,11 @@ describe("my calculator", () => {
     expect(answer).toBe(1);
   });
 
+  test("should calculate 2 aised to the power of 3", () => {
+    const answer = operations.exponentiation(2, 3);
+    expect(answer).toBe(8);
+  });
+
   test.failing("should not have square root method", () => {
     expect(operations.squareRoot).toBeDefined();
   });

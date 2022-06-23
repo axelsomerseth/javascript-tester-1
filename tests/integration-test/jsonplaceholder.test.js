@@ -3,7 +3,7 @@ const { StatusCodes } = require("http-status-codes");
 
 const JSON_PLACEHOLDER_BASE_URL = "https://jsonplaceholder.typicode.com";
 
-describe.skip("Integration tests with jest + supertest + jsonplaceholder", () => {
+describe("Integration tests with jest + supertest + jsonplaceholder", () => {
   test("Test GET /posts - Promise example", () => {
     request(JSON_PLACEHOLDER_BASE_URL)
       .get("/posts/1")

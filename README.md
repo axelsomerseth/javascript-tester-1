@@ -28,7 +28,7 @@ npm install
 npm start
 ```
 
-## 3. Run tests
+## 3. Run tests (at another terminal)
 
 ```console
 npm test [-- --watchAll | --coverage]
